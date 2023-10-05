@@ -20,3 +20,6 @@ Terminal Output:
 ╰─➤  python3 example.py
 Valid Postcode
 ```
+
+## Tests
+To run tests, make sure setuptools and pytest is installed and run ```python3 setup.py pytest```

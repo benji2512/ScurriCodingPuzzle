@@ -1,4 +1,4 @@
-def multiples_three_and_five(start: int, finish: int):
+def multiples_three_and_five(start: int=1, finish: int=100):
   """
   Print a range of numbers(end inclusive) and replace multiples of 3 with the word Three, replace multiples of 5 with the word Five
   and replace the multiples of 3 and 5 with the word ThreeFive
@@ -17,4 +17,4 @@ def multiples_three_and_five(start: int, finish: int):
       print(i)
 
 if __name__ == "__main__":
-  multiples_three_and_five(1,100)
+  multiples_three_and_five()
